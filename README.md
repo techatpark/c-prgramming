@@ -1,2 +1,5 @@
-# c-prgramming
-Text Book for C Prgramming
+## Dev
+```sh
+./hugow --get-extended --get-latest
+./hugow server --ignoreCache --themesDir ../
+```
