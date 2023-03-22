@@ -13,6 +13,9 @@ Eg :
 - sum = calcum(a, b, c);
 - f = factr (a);
 
+
+!["How"](how.png)
+
 ## Call by Reference
 
 - Variables are stored in memory. 
