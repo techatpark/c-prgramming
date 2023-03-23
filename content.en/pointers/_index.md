@@ -1,6 +1,6 @@
 ---
 title: 'Pointers'
-weight: 9
+weight: 4
 ---
 
 # Pointers
