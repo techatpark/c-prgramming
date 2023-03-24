@@ -1,6 +1,6 @@
 ---
-title: 'Functions Quiz'
-weight: 5
+title: 'Memory Management'
+weight: 6
 ---
 ### To execute a program = Source Code => Machine Code
 
@@ -72,7 +72,7 @@ weight: 5
     - single large block of memory with the specified size.
 
 ```C
-#include <studio.h>
+#include <stdio.h>
 int main()
 {
    // This pointer will hold the

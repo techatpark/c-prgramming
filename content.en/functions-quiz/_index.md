@@ -1,6 +1,6 @@
 ---
-title: 'Pointers'
-weight: 4
+title: 'Functions Quiz'
+weight: 3
 ---
 
 # Pointers
@@ -12,6 +12,9 @@ Pass 'values' to variables to the called function.
 Eg : 
 - sum = calcum(a, b, c);
 - f = factr (a);
+
+
+!["How"](how.png)
 
 ## Call by Reference
 
@@ -90,7 +93,7 @@ int main()
     printf("Value of j = %u\n", j); //its holding the addr of i.
     printf("Value of i = %d\n", i);
     printf("Value of i = %d\n", *(&i)); //returns value of some variable stored in that particular location 
-
+    printf("Value of i = %d\n", j); //returns value of some variable stored in that particular location
 
     return 0;
 }
