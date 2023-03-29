@@ -74,6 +74,50 @@ ptr -> rollno;
 
 ## struct using typedef
 
+## Enum
+
+```C
+#include<stdio.h>
+
+enum year{Jan, Feb, Mar, Apr, May, Jun, Jul,
+		Aug, Sep, Oct, Nov, Dec};
+
+int main()
+{
+int i;
+for (i=Jan; i<=Dec; i++)	
+	printf("%d ", i);
+	
+return 0;
+}
+```
+
+```C
+#include <stdio.h>
+enum day {sunday, monday, tuesday, wednesday, thursday, friday, saturday};
+ 
+int main()
+{
+    enum day d = thursday;
+    printf("The day number stored in d is %d", d);
+    return 0;
+}
+```
+
+```C
+#include <stdio.h>
+enum day {sunday = 1, monday, tuesday = 5,
+          wednesday, thursday = 10, friday, saturday};
+ 
+int main()
+{
+    printf("%d %d %d %d %d %d %d", sunday, monday, tuesday,
+            wednesday, thursday, friday, saturday);
+    return 0;
+}
+```
+
+
 
 
 
